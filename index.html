@@ -1,0 +1,1254 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- "не кешировать" -->
+  <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Unbounded:wght@200..900&display=swap"
+    rel="stylesheet">
+  <title>Приоритет 2030 ВМедА</title>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/jquery-3.7.1.js"></script>
+</head>
+
+<body class="lex flex-col max-h-screen">
+
+
+
+  <!--Navigation start-->
+
+  <header id="header"
+    class="overflow-x-hidden wrapper lock-padding header fixed w-full top-0 left-0 z-40 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:z-40 before:bg-gradient-to-r from-blueDark/75 from-1%  via-mainColor to-blueDark/75 to-95%">
+    <div class="container__new container mx-auto ">
+
+      <div
+        class="header_body relative flex 1/2 lg:basis-1/12 xxl:basis-1/4 justify-between h-[50px] lg:h-[80px] items-center">
+        <a target="_blank" href="https://priority2030.ru/" class="header__logo relative z-40">
+          <img src="/img/forms/priority_logo.svg" class="h-8 lg:h-10 max-w-full" alt="Priority_Logo">
+        </a>
+
+        <div class="flex flex-row-reverse lg:flex-row justify-between 1/2 lg:basis-11/12 xxl:basis-3/4">
+          <div class="header__burger block relative w-[30px] h-5 lg:hidden z-40">
+            <span></span>
+          </div>
+          <nav class="header__menu">
+            <img src="/img/forms/Form_2.png" class="block animate-spin-sloww absolute -top-24 -left-28 lg:hidden"
+              alt="form">
+            <img src="/img/forms/nik.svg" class="block absolute animate -bottom-5 -right-10 lg:hidden h-64 md:h-80"
+              alt="form">
+            <ul
+              class="header__list flex relative z-40 container mx-auto px-0 py-2 text-sm xl:text-base text-white hover:text-activeRed">
+              <li class="list-none">
+                <a href="#programm" class="header__link mr-5 text-white hover:text-activeRed">О программе</a>
+              </li>
+              <li>
+                <a href="#projects" class="header__link mr-5 text-white hover:text-activeRed">Проекты</a>
+              </li>
+              <li>
+                <a href="#best" class="header__link mr-5 text-white hover:text-activeRed text-justify">Лучшие
+                  практики</a>
+              </li>
+              <li>
+                <a href="#command" class="header__link mr-5 text-white hover:text-activeRed">Команда</a>
+              </li>
+              <li>
+                <a href="#reporting_materials" class="header__link mr-5 text-white hover:text-activeRed">Отчетные
+                  материалы</a>
+              </li>
+
+
+              <li>
+                <a href="mailto:vmeda_10@mil.ru" target="_blank"
+                  class="header__link lg:hidden pochta flex space-x-2 items-center">
+                  <img src="/img/icon/Mail.svg" class="lg:block h-3 w-auto" alt="mail">
+                  <p class="xl:relative xl:flex text-white font-semibold">vmeda_10@mail.ru</p>
+                </a>
+              </li>
+
+            </ul>
+          </nav>
+
+
+          <a href="mailto:vmeda_10@mil.ru" target="_blank" class="pochta z-40 flex space-x-2 items-center">
+            <div class>
+              <p class="justify-end text-white text-xs hidden xl:relative xl:flex">проектный офис</p>
+              <div class="flex">
+                <img src="/img/icon/Mail.svg" class="hidden lg:block h-3 w-auto mt-2 pr-1.5" alt="mail">
+                <p class="hidden xl:relative xl:flex text-activeRed hover:text-white">vmeda_10@mil.ru</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="main__banner overflow-x-hidden">
+    <canvas class="lg:w-full bg-gradient-to-r from-black via-mainColor to-blueDark"></canvas>
+    <img src="/img/forms/Form_3.png"
+      class="absolute top-[40%] md:top-[45%] lg:top-[45%] left-1/2 text-center -translate-y-1/2 -translate-x-1/2 animate-pulse-slow">
+    <div
+      class="main__banner__text absolute top-[40%] md:top-[45%] lg:top-[45%] left-1/2 text-center -translate-y-1/2 -translate-x-1/2 space-y-2 z-30">
+      <p class="text-white text-4xl md:text-5xl lg:text-7xl font-black uppercase leading-tight">Приоритет<br>2030</p>
+      <a target="_blank" href="https://www.vmeda.org/" class="">
+        <div class="flex flex-col items-center pb-2 lg:pt-6 lg:pb-8">
+          <img src="/img/Logo.png" class="w-[76px] h-[93px]" alt="VMedA">
+          <p class="text-white text-base md:text-lg pb-2">Военно-медицинская <br>академия</p>
+        </div>
+      </a>
+      <a href="#popup" class="popup-link">
+        <div class="animate-bounce inline-flex hover:bg-activeRed bg-activeRed/75 active:bg-hoverColor transition-all duration-300 text-white py-4 lg:pb-4 px-8 rounded-full text-sm
+          md:text-base border-white border-2">
+          Инициировать проект
+        </div>
+      </a>
+
+
+    </div>
+  </div>
+  <!--Forms start-->
+  <img src="/img/forms/Form_2.png" class="hidden lg:animate-spin-slow lg:block lg:absolute -top-24 -left-28" alt="">
+  <img src="/img/forms/Form_2.png" class="hidden lg:animate-spin-sloww lg:block lg:absolute -top-44 right-32" alt="">
+  <!--Foms end-->
+
+  <main class="grow owerflow-y-hidden">
+
+    <!--Programm start-->
+
+    <section class="">
+      <div class="m-auto h-[820px] md:h-[600px] xl:h-[700px] bg-lightBlue w-full relative">
+        <div
+          class="container m-auto  bg-white absolute rounded-t-3xl top-28 left-1/2 -translate-y-1/2 -translate-x-1/2">
+          <div id="programm" class="py-mobileTitle xl:py-title max-w-screen-xl mx-auto p-4">
+            <h1
+              class="text-mainBlueColor uppercase text-3xl lg:text-5xl font-black pb-mobileTitle xl:pb-title text-center">
+              О ПРОГРАММЕ</h1>
+            <div class="flex flex-wrap-reverse lg:flex-nowrap lg:justify-between">
+              <div class="text-left pb-6 xl:pb-12">
+                <p
+                  class="before:content-arrow before:inline-block before:w-5 uppercase text-lg md:text-xl text-mainBlueColor font-black pb-2">
+                  Миссия академии </p>
+                <p class="font-body text-sm lg:text-base">Прогресс достижений военной медицины на благо здоровья России.
+                </p>
+              </div>
+              <img src="/img/priority_logo.svg" class="pb-6 pl-4 xl:pb-10 h-[80px] md:h-[60px] lg:h-[90px] xl:h-[110px]"
+                alt="">
+            </div>
+            <div class="text-left w-full md:w-2/3">
+              <p
+                class="before:content-arrow before:inline-block before:w-5 uppercase text-lg lg:text-xl text-mainBlueColor font-black pb-2">
+                Стратегическая цель</p>
+              <p class="font-body text-sm lg:text-base">Формирование и трансформация кластера военной и экстремальной
+                медицины на основе инновационных, образовательных, научных имедицинских технологий с последующим
+                трансфером
+                лучших результатов для достижения Национальных целей в области здоровья и благополучия человека.</p>
+            </div>
+          </div>
+          <div
+            class="container m-auto bg-gradient-to-r from-black via-mainColor to-blueDark absolute rounded-b-3xl left-1/2 text-center top-full -translate-x-1/2">
+            <div class="max-w-screen-xl mx-auto p-4 py-mobileTitle xl:py-title">
+              <p class="font-semibold leading-relaxed text-white text-base lg:text-lg text-left">Военно-медицинская
+                академия
+                имеет более чем 200–летний опыт, направленный на благо развития Вооруженных Сил и всей медицинской
+                науки.
+                Наша миссия дополнена важной составляющей — глубокой интеграцией с Национальной системой
+                здравоохранения.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Programm end-->
+
+
+
+      <!--section Projects start-->
+      <div id="projects" class="bg-lightBlue w-full m-auto relative py-0 lg:pt-med">
+        <div class="m-auto max-w-screen-xl p-4">
+          <h1
+            class="text-mainBlueColor uppercase text-3xl lg:text-5xl font-black pb-mobileTitle xl:pb-middle text-center z-30">
+            Стратегические проекты</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 pb-mobileMed lg:pb-med">
+            <!--Модальное окно 1 проект старт-->
+            <div class="flex flex-col-reverse">
+              <a href="#popup_2" class="popup-link group z-30">
+                <div
+                  class="bg-white/75 group-hover:bg-gradient-to-tr from-blueDark to-mainColor border-2 border-mainColor transition-all duration-300 rounded-2xl py-6 px-7">
+                  <div class="h-[150px] flex flex-col justify-between">
+                    <p
+                      class="text-base text-left lg:text-lg font-semibold group-hover:text-white transition-all duration-300">
+                      Трансляционные исследования в военной <br> и экстремальной медицине</p>
+                    <div class="flex flex-row items-center ">
+                      <p
+                        class="uppercase text-lg lg:text-xl text-mainBlueColor group-hover:text-white transition-all duration-300 font-black pr-2">
+                        Смотреть</p>
+                      <div
+                        class="w-0 h-0 border-t-[7px] border-t-transparent group-hover:border-t-transparent transition-all duration-300 border-l-[10px] border-mainBlueColor group-hover:border-white border-b-[7px] border-b-transparent group-hover:border-b-transparent">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div id="popup_2" class="popup">
+              <div class="popup__body container m-auto">
+                <a href="#header"
+                  class="cursor-pointer popup__close close-popup h-8 w-8 text-activeRed  fixed right-4 md:right-10  xl:right-10 xxl:right-20 top-10 md:top-20 z-50">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                </a>
+
+                <!--body-->
+
+                <div class="popup__content  my-0 rounded-3xl relative overflow-x-hidden">
+                  <div class=" bg-white mx-auto pt-0 px-0 md:px-3 lg:px-3 xl:px-8 -mt-10 rounded-3xl ">
+                    <div class="rounded-t-2xl bg-modal bg-cover bg-no-repeat -mx-8 z-40">
+                      <p class="text:sm md:text-lg text-white leading-relaxed text-left pt-12 md:pt-24 px-8 md:px-16">
+                        Стратегический проект
+                      </p>
+                      <p
+                        class="my-4 text-xl md:text-5xl text-white font-semibold  text-left pb-8 md:pb-20 px-8 md:px-16 w-[92%]">
+                        Трансляционные исследования в военной и экстремальной медицине
+                      </p>
+                    </div>
+
+
+
+                    <!--List project start-->
+
+                    <div class="pb-mobileTitle lg:pb-middle">
+
+
+                      <img id="project1_infographic" src="/img/projects/project1_infographic.png"
+                        class="mx-auto w-full pb-list lg:pb-mobileTitle px-0 md:px-8" alt="project1_infographic">
+
+
+
+
+                      <h1 class="text-xl md:text-5xl text-mainBlueColor font-black pb-4 md:pb-8 px-0 md:px-8"> Портфель
+                        проекта</h1>
+                      <ul class="case_projects list-disc font-body text:xs md:text-base px-8 md:px-16">
+                        <li>Ранняя диагностика и профилактика снижения профессиональной
+                          надежности специалистов экстремальных видов трудовой деятельности.</li>
+                        <li>Прогнозирование рисков развития агрессивного, суицидального и
+                          аддиктивного поведения среди населения территорий с различным физико-географическим и
+                          биогеохимическим статусом.</li>
+                        <li>Создание научно-производственного отдела «БИОМЕД-КЛАСТЕР»
+                          (аддитивные технологии в травматологии и челюстно-лицевой хирургии).
+                           </li>
+                        <li>Новые биологические маркеры и методики ранней диагностики
+                          заболеваний,
+                          имеющих в своей основе инфекционный генез.
+                           </li>
+                        <li>Новые инженерно-технические решения в разработке инновационных
+                          хирургических технологий.
+                         </li>
+                        <li>Ранняя диагностика сердечной недостаточности, нарушений
+                          метаболизма
+                          костной ткани и острого повреждения почек за счет оценки протеомного профиля и метаболитов в
+                          моче пациентов.</li>
+                        <li>Технологии диагностики видовой принадлежности и лекарственной
+                          резистентности возбудителей инфекций и идентификации их переносчиков.</li>
+                        <li>Портативный инструментальный комплекс (кейс) для диагностики и
+                          лечения сосудистых повреждений.
+                        </li>
+                        <li>Разработка средств, методов и изделий для лечения раненых и
+                          пострадавших на этапах медицинской эвакуации.</li>
+                        <li>Перспективные средства коррекции работоспособности и
+                          диссомнических
+                          расстройств при интенсивных нагрузках.
+                        </li>
+                        <li>Новое медицинское средство профилактики и лечения нарушений
+                          здоровья
+                          при воздействии радиационных факторов.
+                        </li>
+                        <li>Биоинженерные, гибридные и молекулярно-генетические технологии для
+                          лечения и диагностики боевой хирургической патологии.
+                        </li>
+                        <li>Инновационные технологии экспресс-диагностики в клинической
+                          токсикологии и фармакологии.</li>
+
+
+                      </ul>
+                    </div>
+
+                    <!--list project end-->
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="fixed inset-0 -z-20 overflow-x-hidden">
+                <img src="/img/forms/Form_4.png" class="hidden md:block absolute top-10 left-0 animate-spin-slow"
+                  alt="">
+                <img src="/img/forms/Form_3.png"
+                  class="hidden md:block absolute bottom-44 right-20 animate-spin-sloww h-80 w-auto" alt="">
+              </div>
+
+            </div>
+            <!--Модальное окно 1 проект конец-->
+
+
+
+
+
+            <!--Модальное окно 2 проект старт-->
+            <div class="flex flex-col-reverse">
+              <a href="#popup_3" class="popup-link group z-30">
+                <div
+                  class="bg-white/75 group-hover:bg-gradient-to-tr from-blueDark to-mainColor border-2 border-mainColor transition-all duration-300 rounded-2xl py-6 px-7">
+                  <div class="h-[150px] flex flex-col justify-between">
+                    <p
+                      class="text-base text-left lg:text-lg font-semibold group-hover:text-white transition-all duration-300">
+                      Кадровая лаборатория в военной <br>и экстремальной медицине</p>
+                    <div class="flex flex-row items-center ">
+                      <p
+                        class="uppercase text-lg lg:text-xl text-mainBlueColor group-hover:text-white transition-all duration-300 font-black pr-2">
+                        Смотреть</p>
+                      <div
+                        class="w-0 h-0 border-t-[7px] border-t-transparent group-hover:border-t-transparent transition-all duration-300 border-l-[10px] border-mainBlueColor group-hover:border-white border-b-[7px] border-b-transparent group-hover:border-b-transparent">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div id="popup_3" class="popup">
+              <div class="popup__body container m-auto">
+                <a href="#header"
+                  class="cursor-pointer popup__close close-popup h-8 w-8 text-activeRed  fixed right-10 md:right-10  xl:right-10 xxl:right-20 top-10 md:top-20 z-50">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                </a>
+
+
+                <!--body-->
+                <div class="popup__content  my-0 rounded-3xl relative overflow-x-hidden">
+                  <div class="bg-white mx-auto pt-0 px-0 md:px-3 lg:px-3 xl:px-8 -mt-10 rounded-3xl ">
+                    <div class="rounded-t-2xl bg-modal bg-cover bg-no-repeat -mx-8 z-40">
+                      <p class="text:sm md:text-lg text-white leading-relaxed text-left pt-12 md:pt-24 px-8 md:px-16">
+                        Стратегический проект
+                      </p>
+                      <p
+                        class="my-4 text-xl md:text-5xl text-white font-semibold  text-left pb-8 md:pb-20 px-8 md:px-16 w-[92%]">
+                        Кадровая лаборатория в военной <br>и экстремальной медицине
+                      </p>
+                    </div>
+
+                    <!--List project start-->
+
+                    <div class="pb-mobileTitle lg:pb-middle">
+                      <img id="project1_infographic" src="/img/projects/project2_infographiс.png"
+                        class="mx-auto w-full pb-list lg:pb-mobileTitle px-0 md:px-8" alt="project1_infographic">
+                      <h1 class="text-xl md:text-5xl text-mainBlueColor font-black pb-4 md:pb-8 px-0 md:px-8"> Портфель
+                        проекта</h1>
+                      <ul class="case_projects list-disc font-body text:xs md:text-base px-8 md:px-16">
+                        <li>Токсикологическая характеристика пульмонотоксикантов.</li>
+                        <li>Создание учебно-экспериментальной микрохирургической лаборатории с
+                          классом для отработки навыков микрохирургии в структуре научно-образовательного кластера
+                          Военно-медицинской академии.</li>
+                        <li>Межведомственная площадка для внедрения новых подходов к обучению
+                          первой помощи (тактической медицине) с учетом опыта современных боевых действий.</li>
+                        <li>Практико-ориентированная образовательная платформа по
+                          военно-полевой
+                          хирургии.
+                        </li>
+                        <li>Поражение органов при раневом сепсисе.</li>
+                        <li>Этапное лечение боевой терапевтической патологии.</li>
+                        <li>Создание учебно-экспериментальной лаборатории подготовки носителей
+                          отраслевого лидерства передовой хирургии в структуре учебно-научно-практического кластера
+                          академии.</li>
+                        <li>Определение устойчивости организма водолазов к факторам
+                          повышенного
+                          давления газовой среды.</li>
+                      </ul>
+                    </div>
+                    <!--list project end-->
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="fixed inset-0 -z-20 overflow-x-hidden">
+                <img src="/img/forms/Form_4.png" class="hidden md:block absolute top-10 left-0 animate-spin-slow"
+                  alt="">
+                <img src="/img/forms/Form_3.png"
+                  class="hidden md:block absolute bottom-44 right-20 animate-spin-sloww h-80 w-auto" alt="">
+              </div>
+            </div>
+            <!--Модальное окно 2 проект конец-->
+
+
+
+            <!--Модальное окно 3 проект старт-->
+            <div class="flex flex-col-reverse">
+              <a href="#popup_4" class="popup-link group z-30">
+                <div
+                  class="bg-white/75 group-hover:bg-gradient-to-tr from-blueDark to-mainColor border-2 border-mainColor transition-all duration-300 rounded-2xl py-6 px-7">
+
+
+                  <div class="h-[150px] flex flex-col justify-between">
+                    <p
+                      class="text-base text-left lg:text-lg font-semibold group-hover:text-white transition-all duration-300">
+                      Цифровой континуум <br>военной и экстремальной медицины</p>
+                    <div class="flex flex-row items-center ">
+                      <p
+                        class="uppercase text-lg lg:text-xl text-mainBlueColor group-hover:text-white transition-all duration-300 font-black pr-2">
+                        Смотреть</p>
+                      <div
+                        class="w-0 h-0 border-t-[7px] border-t-transparent group-hover:border-t-transparent transition-all duration-300 border-l-[10px] border-mainBlueColor group-hover:border-white border-b-[7px] border-b-transparent group-hover:border-b-transparent">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+            <div id="popup_4" class="popup">
+              <div class="popup__body container m-auto">
+                <a href="#header"
+                  class="cursor-pointer popup__close close-popup h-8 w-8 text-activeRed  fixed right-10 md:right-10  xl:right-10 xxl:right-20 top-10 md:top-20 z-50">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                </a>
+
+
+                <!--body-->
+
+                <div class="popup__content  my-0 rounded-3xl relative overflow-x-hidden">
+                  <div class=" bg-white mx-auto pt-0 px-3 md:px-5 lg:px-3 xl:px-8 -mt-10 rounded-3xl ">
+                    <div class="rounded-t-2xl bg-modal bg-cover bg-no-repeat -mx-8 z-40">
+                      <p class="text:sm md:text-lg text-white leading-relaxed text-left pt-12 md:pt-24 px-8 md:px-16">
+                        Стратегический проект
+                      </p>
+                      <p
+                        class="my-4 text-xl md:text-5xl text-white font-semibold  text-left pb-8 md:pb-20 px-8 md:px-16 w-[92%]">
+                        Цифровой континуум <br>военной и экстремальной медицины
+                      </p>
+                    </div>
+                    <!--List project start-->
+
+                    <div class="pb-mobileTitle lg:pb-middle">
+                      <img id="project1_infographic" src="/img/projects/project3_infographiс.png"
+                        class="mx-auto w-full pb-list lg:pb-mobileTitle px-0 md:px-8" alt="project1_infographic">
+                      <h1 class="text-xl md:text-5xl text-mainBlueColor font-black pb-4 md:pb-8 px-0 md:px-8"> Портфель
+                        проекта</h1>
+                      <ul class="case_projects list-disc font-body text:xs md:text-base px-8 md:px-16">
+                        <li>VR-тренажер «Тактическая медицина. Базовый курс.
+                        </li>
+                        <li>VR-тренажер «Лечение боевой терапевтической патологии на этапах
+                          медицинской эвакуации».</li>
+                        <li>Цифровая платформа обследования пациентов с боевой психической
+                          патологией.
+                        </li>
+                        <li>Мобильный помощник пациента с ампутациями конечностей.</li>
+                        <li>Цифровая кафедра.
+                        </li>
+                        <li>Автоматизация процессов принятия военно-врачебных экспертных решений.</li>
+                        <li>Цифровой диссертационный совет.
+                        </li>
+                        <li>Единая среда разработки программных продуктов.</li>
+
+                        <li>Создание единой интегрированной электронной медицинской карты Военно-медицинской академии.
+                        </li>
+                        <li>Цифровая траектория медицинских кадров.</li>
+                        <li>ВМЕДА.ОНЛАЙН – Мобильный помощник.
+                        </li>
+                        <li>Цифровая образовательная среда.</li>
+
+                        <li>IT-ИНФРАСТРУКТУРА.
+                        </li>
+                        <li>Построение системы мотивации сотрудников, направленной на развитие Военно-медицинской академии и достижение стратегических целей.</li>
+                      </ul>
+                    </div>
+                    <!--list project end-->
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="fixed inset-0 -z-20 overflow-x-hidden">
+                <img src="/img/forms/Form_4.png" class="hidden md:block absolute top-10 left-0 animate-spin-slow"
+                  alt="">
+                <img src="/img/forms/Form_3.png"
+                  class="hidden md:block absolute bottom-44 right-20 animate-spin-sloww h-80 w-auto" alt="">
+              </div>
+            </div>
+
+            <!--Модальное окно 3 проект конец-->
+
+
+
+            <!--Модальное окно 4 проект старт-->
+            <div class="flex flex-col-reverse">
+              <a href="#popup_5" class="popup-link group z-30">
+                <div
+                  class="bg-white/75 group-hover:bg-gradient-to-tr from-blueDark to-mainColor border-2 border-mainColor transition-all duration-300 rounded-2xl py-6 px-7">
+                  <div class="h-[150px] flex flex-col justify-between">
+                    <p
+                      class="text-base text-left lg:text-lg font-semibold group-hover:text-white transition-all duration-300">
+                      Цифровая кафедра</p>
+                    <div class="flex flex-row items-center ">
+                      <p
+                        class="uppercase text-lg lg:text-xl text-mainBlueColor group-hover:text-white transition-all duration-300 font-black pr-2">
+                        Смотреть</p>
+                      <div
+                        class="w-0 h-0 border-t-[7px] border-t-transparent group-hover:border-t-transparent transition-all duration-300 border-l-[10px] border-mainBlueColor group-hover:border-white border-b-[7px] border-b-transparent group-hover:border-b-transparent">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+
+
+
+            <div id="popup_5" class="popup">
+              <div class="popup__body container m-auto">
+                <a href="#header"
+                  class="cursor-pointer popup__close close-popup h-8 w-8 text-activeRed  fixed right-10 md:right-10  xl:right-10 xxl:right-20 top-10 md:top-20 z-50">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="15" y1="9" x2="9" y2="15" />
+                    <line x1="9" y1="9" x2="15" y2="15" />
+                  </svg>
+                </a>
+
+
+                <!--body-->
+
+                <div class="popup__content  my-0 rounded-3xl relative overflow-x-hidden">
+                  <div class=" bg-white mx-auto pt-0 px-3 md:px-5 lg:px-3 xl:px-8 -mt-10 rounded-3xl ">
+                    <div class="rounded-t-2xl bg-modal bg-cover bg-no-repeat -mx-8 z-40">
+                      <p class="text:sm md:text-lg text-white leading-relaxed text-left pt-12 md:pt-24 px-8 md:px-16">
+
+                      </p>
+                      <p
+                        class="my-4 text-xl md:text-5xl text-white font-semibold  text-left pb-8 md:pb-20 px-8 md:px-16 w-[92%]">
+                        Цифровая кафедра
+                      </p>
+                    </div>
+
+                    <!--List project start-->
+                    <div class="pb-mobileTitle lg:pb-middle">
+                      <img id="project1_infographic" src="/img/projects/project4_infographiс8.png"
+                        class="mx-auto w-full pb-list lg:pb-mobileTitle px-0 md:px-8" alt="project1_infographic">
+                      <h1 class="text-xl md:text-5xl text-mainBlueColor font-black pb-4 md:pb-8 px-0 md:px-8">
+                      </h1>
+
+                      <figure class=" rounded-2xl"><video controls class="rounded"
+                          src="/video/vizitka_zifr_kafedra.mp4"></video></figure>
+
+
+
+                    </div>
+                    <!--list project end-->
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="fixed inset-0 -z-20 overflow-x-hidden">
+                <img src="/img/forms/Form_4.png" class="hidden md:block absolute top-10 left-0 animate-spin-slow"
+                  alt="">
+                <img src="/img/forms/Form_3.png"
+                  class="hidden md:block absolute bottom-44 right-20 animate-spin-sloww h-80 w-auto" alt="">
+              </div>
+            </div>
+          </div>
+
+
+
+          <!--Infographic start-->
+          <div class="infographic m-auto w-full pb-mobileMed lg:pb-med">
+            <div class=" bg-gradient-to-r from-blueDark  to-mainColor py-mobileMed lg:py-med rounded-3xl z-20">
+              <h3 class="text-white text-xl lg:text-3xl font-black pb-mobileTitle xl:pb-title text-center">Количество
+                реализованных проектов</h3>
+              <div class="mx-2 md:mx-10 flex flex-col space-y-10">
+                <div class="flex space-x-4 items-center">
+                  <span class="text-gray-400 font-semibold text-2xl pr-2">2021</span>
+                  <div class="progressone -w-1/2 h-8 bg-activeRed">
+                  </div>
+                  <span class="text-white text-3xl lg:text-8xl font-semibold">5</span>
+                </div>
+                <div class="flex space-x-4 items-center">
+                  <span class="text-gray-400 font-semibold text-2xl">2022</span>
+                  <div class="progresstwo -w-1/2 h-8 bg-activeRed">
+                  </div>
+                  <span class="text-white text-3xl lg:text-8xl font-semibold">12</span>
+                </div>
+                <div class="flex space-x-4 items-center">
+                  <span class="text-gray-400 font-semibold text-2xl">2023</span>
+                  <div class="progressthree w-1/2 h-8 bg-activeRed">
+                  </div>
+                  <span class="text-white text-3xl lg:text-8xl font-semibold">28</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!--Infographic end-->
+        </div>
+    </section>
+    <!--Модальное окно 4 проект конец-->
+
+
+    <!--section Best practice start-->
+    <section class="best_practice bg-white relative z-20 overflow-x-hidden">
+      <div class="container m-auto max-w-screen-xl p-4 py-mobileMed lg:py-med" id="best">
+        <h1
+          class="text-mainBlueColor uppercase text-3xl lg:text-5xl font-black pb-mobileTitle xl:pb-middle text-center">
+          Лучшие практики</h1>
+        <div class="tabs z-10">
+
+          <nav class="tab-list">
+            <a class="tab active my-0.5 md:my-0" href="#tab-1">2023</a>
+            <a class="tab my-0.5 md:my-0" href="#tab-2">21/22</a>
+            <!-- <a class="tab my-0.5 md:my-0" href="#tab-3">2024</a> -->
+          </nav>
+
+          <div id="tab-1" class="tab-content show bg-lightBlue rounded-2xl py-0 md:py-5">
+            <!--Слайдер-->
+            <!-- Slider main container -->
+            <div class="image-slider swiper-container">
+              <!-- Additional required wrapper -->
+              <div class="image-slider__wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_1.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_2.png" alt="">
+                  </div>
+                </div>
+
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_3.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_4.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_5.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_6.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/23/2023_7.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container relative">
+                    <img src="/img/best_projects/23/2023_8.png" alt="">
+                    <a target="_blank" href="https://online.vmeda.org/" class="pointer">
+                      <div class="absolute bottom-0 right-0 h-1/3 w-1/2 bg-transparent"></div>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination py-4"></div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+            <!--Слайдер_end-->
+          </div>
+          <div id="tab-2" class="tab-content bg-lightBlue rounded-2xl py-0 md:py-5">
+            <!--Слайдер-->
+            <!-- Slider main container -->
+            <div class="image-slider px-0 swiper-container mx-auto">
+              <!-- Additional required wrapper -->
+              <div class="image-slider__wrapper swiper-wrapper">
+                <!-- Slides -->
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/21_22/2122_1.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/21_22/2122_2.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/21_22/2122_3.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/21_22/2122_4.png" alt="">
+                  </div>
+                </div>
+
+                <div class="image-slider__slide swiper-slide">
+                  <div class="image-slider__image swiper-zoom-container">
+                    <img src="/img/best_projects/21_22/2122_5.png" alt="">
+                  </div>
+                </div>
+
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination py-4"></div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+            <!--Слайдер_end-->
+
+          </div>
+        </div>
+      </div>
+      <img src="/img/priority_gasp_opasity.png"
+        class="hidden xl:block absolute bottom-0 left-24 h-[425px] w-[700px] -z-10" alt="">
+    </section>
+
+
+
+
+    <!--section Best practice end-->
+
+    <!--Command start-->
+    <section class="relative bg-lightBlue overflow-x-hidden">
+      <div class="m-auto max-w-screen-xl p-4  pt-mobileMed xl:pt-med relative z-30" id="command">
+        <h1
+          class="text-mainBlueColor uppercase text-3xl lg:text-5xl font-black pb-mobileTitle xl:pb-middle text-center ">
+          Команда <br>приоритет 2030</h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 mx-10 lg:grid-cols-4 gap-y-10 md:gap-x-24 md:gap-y-16 pb-mobileTitle xl:pb-middle">
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/krukov.png" class="pb-2" alt="Krukov">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Крюков Евгений Владимирович</p>
+            <p class="font-body text-xs md:text-sm font-normal -mx-5">Начальник Военно-медицинской академии </p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Tolstosheev.png" class="pb-2" alt="Tolstosheev">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Толстошеев Валерий Николаевич</p>
+            <p class="font-body text-xs md:text-sm font-normal -mx-5">Ответственный за реализацию политики управления
+              академией — заместитель начальника академии</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Ivchenko.png" class="pb-2" alt="Ivchenko">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Ивченко Евгений Викторович</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственный за реализацию научно-исследовательской
+              политикии политики в области инноваций и коммерциализации разработок — заместитель начальника академии
+              по научной работе</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Makiev.png" class="pb-2" alt="Makiev">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Макиев Руслан Гайозович</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственный за реализацию образовательной политики —
+              заместитель начальника академии по учебной работе</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Kotiv.png" class="pb-2" alt="Kotiv">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Котив Богдан Николаевич</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственный за реализацию политики в области клинической
+              практики — заместитель начальника академии по клинической работе</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Mizgir.png" class="pb-2" alt="Mizgir">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Мизгир Олег Алексеевич</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственныйза реализацию кампусной и инфраструктурной
+              политики — заместитель начальникаакадемии по тылу</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Olesuk.png" class="pb-2" alt="Olesuk">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Олесюк Павел Петрович</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственныйза реализацию молодёжной политики — заместитель
+              начальника академии повоенно-политической работе</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Dushkin.png" class="pb-2" alt="Dushkin">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Душкин Алексей Иванович</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственныйза реализацию финансово-экономической
+              политики —
+              начальникфинансово-экономической службы — главный бухгалтер
+            </p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Milichenko.png" class="pb-2" alt="Milichenko">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Миличенко Павел Валерьевич</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственный за реализацию политики управления человеческим
+              капиталом — начальник отдела кадров</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Ovchinnikov.png" class="pb-2" alt="Ovchinnikov">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Овчинников Дмитрий Валерьевич</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Руководитель стратегического проекта «Трансляционные
+              исследования в военной и экстремальной медицине»</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Lobachev.png" class="pb-2" alt="Lobachev">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Лобачёв Иван Васильевич</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Руководитель стратегического проекта «Кадровая лаборатория
+              военной и экстремальной медицины»</p>
+          </div>
+          <div class="flex flex-col space-y-2 text-center">
+            <img src="/img/Command/Gasparyan.png" class="pb-2" alt="Gasparyan">
+            <p class="font-body font-extrabold text-base md:text-xl -mx-5">Гаспарян Олег Вадимович</p>
+            <p class="font-body text-xs md:text-sm -mx-5">Ответственный за реализацию политики в области цифровой
+              трансформации и политики в областиоткрытых данных — начальник центра информационных технологий
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Command end-->
+
+
+
+
+
+    <!--Reporting materials start-->
+    <section class="overflow-x-hidden">
+
+      <div class="bg-white w-full m-auto py-mobileMed lg:py-med relative z-20">
+        <div class="m-auto max-w-screen-xl p-4 ">
+          <h1
+            class="text-mainBlueColor uppercase text-3xl lg:text-5xl font-black pb-mobileTitle xl:pb-middle text-center"
+            id="reporting_materials">
+            Отчётные материалы</h1>
+          <div class="mx-auto flex flex-col space-y-4 z-30">
+
+
+            
+
+                <a target="_blank" href="/img/docs/Programma razvitiya 2024.pdf"
+                class="flex flex-col space-y-2 md:space-y-0 md:flex-row w-full items-center bg-lightBlue rounded-xl py-6 px-6 hover:text-mainColor transition-all duration-300">
+
+                <img src="/img/icon/report_icon.svg" class="flex-none w-10 h-12" alt="Report">
+                <p class="flex-none md:flex-1 md:grow text-xs text-center md:text-left md:text-base opacity-1 mx-4 ">
+                  Программа развития университета на 2021–2030 годы в рамках реализации программы стратегического академического лидерства
+    «Приоритет-2030»</p>
+                <p
+                  class="pl-4 flex-none text:sm md:text-base font-semibold uppercase text-mainBlueColor hover:text-mainColor transition-all duration-300 inline-flex items-center text-center after:content-['\25bc'] after:mx-2">
+                  Открыть
+                </p>
+              </a>
+
+
+
+              <a target="_blank" href="/img/docs/Rekomendatsii Soveta Minobr 01.12.23.pdf"
+              class="flex flex-col space-y-2 md:space-y-0 md:flex-row w-full items-center bg-lightBlue rounded-xl py-6 px-6 hover:text-mainColor transition-all duration-300">
+
+              <img src="/img/icon/report_icon.svg" class="flex-none w-10 h-12" alt="Report">
+              <p class="flex-none md:flex-1 md:grow text-xs text-center md:text-left md:text-base opacity-1 mx-4 ">
+                Рекомендации по итогам
+                заседания Совета по поддержке программ развития образовательных
+                организаций высшего образования в рамках реализации программы
+                стратегического академического лидерства «Приоритет-2030»
+                01-02 декабря 2023 г.</p>
+              <p
+                class="pl-4 flex-none text:sm md:text-base font-semibold uppercase text-mainBlueColor hover:text-mainColor transition-all duration-300 inline-flex items-center text-center after:content-['\25bc'] after:mx-2">
+                Открыть
+              </p>
+            </a>
+
+
+
+            <a target="_blank" href="/img/docs/Rekomendatsii Soveta Minobr 09.12.22.pdf"
+            class="flex flex-col space-y-2 md:space-y-0 md:flex-row w-full items-center bg-lightBlue rounded-xl py-6 px-6 hover:text-mainColor transition-all duration-300">
+
+            <img src="/img/icon/report_icon.svg" class="flex-none w-10 h-12" alt="Report">
+            <p class="flex-none md:flex-1 md:grow text-xs text-center md:text-left md:text-base opacity-1 mx-4 ">
+              Рекомендации по итогам
+              заседания Совета по поддержке программ развития образовательных
+              организаций высшего образования в рамках реализации программы
+              стратегического академического лидерства «Приоритет-2030»
+              9-11 декабря 2022 г.</p>
+            <p
+              class="pl-4 flex-none text:sm md:text-base font-semibold uppercase text-mainBlueColor hover:text-mainColor transition-all duration-300 inline-flex items-center text-center after:content-['\25bc'] after:mx-2">
+              Открыть
+            </p>
+            </a>
+
+
+            <a target="_blank" href="/img/docs/Ezhegodnyj otchet 2023.pdf"
+            class="flex flex-col space-y-2 md:space-y-0 md:flex-row w-full items-center bg-lightBlue rounded-xl py-6 px-6 hover:text-mainColor transition-all duration-300">
+
+            <img src="/img/icon/report_icon.svg" class="flex-none w-10 h-12" alt="Report">
+            <p class="flex-none md:flex-1 md:grow text-xs text-center md:text-left md:text-base opacity-1 mx-4 ">
+              Ежегодный отчёт
+              о результатах реализации программы развития университета
+              в рамках реализации программы стратегического академического лидерства
+              «Приоритет-2030» в 2023 г.</p>
+            <p
+              class="pl-4 flex-none text:sm md:text-base font-semibold uppercase text-mainBlueColor hover:text-mainColor transition-all duration-300 inline-flex items-center text-center after:content-['\25bc'] after:mx-2">
+              Открыть
+            </p>
+            </a>
+
+
+
+            <a target="_blank" href="/img/docs/Yejegodnыy otchet za 2022 g..pdf"
+              class="flex flex-col space-y-2 md:space-y-0 md:flex-row w-full items-center bg-lightBlue rounded-xl py-6 px-6 hover:text-mainColor transition-all duration-300">
+
+              <img src="/img/icon/report_icon.svg" class="flex-none w-10 h-12" alt="Report">
+              <p class="flex-none md:flex-1 md:grow text-xs text-center md:text-left md:text-base opacity-1 mx-4 ">
+                Ежегодный отчёт
+                о результатах реализации программы развития университета
+                в рамках реализации программы стратегического академического лидерства
+                «Приоритет-2030» в 2022 г.</p>
+              <p
+                class="pl-4 flex-none text:sm md:text-base font-semibold uppercase text-mainBlueColor hover:text-mainColor transition-all duration-300 inline-flex items-center text-center after:content-['\25bc'] after:mx-2">
+                Открыть
+              </p>
+              </a>
+
+
+          </div>
+
+        </div>
+        <img src="/img/priority_gasp_opasity.png"
+          class="hidden xl:block absolute bottom-0 right-24 h-[425px] w-[700px] -z-10" alt="">
+      </div>
+    </section>
+
+    <!--Reporting materials end-->
+
+
+
+
+    <!--Integration start-->
+    <div class="bg-lightBlue w-full m-auto py-mobileMed lg:py-med">
+      <div class="m-auto max-w-screen-xl p-4">
+        <h1
+          class="text-mainBlueColor uppercase text-3xl lg:text-5xl font-black pb-mobileTitle xl:pb-middle text-center z-30"
+          id="reporting_materials">
+          Мы на странице<br>«Приоритет 2030»</h1>
+
+        <iframe style="width: 100%; height: 70vh; box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.1); border-radius: 12px;"
+          frameborder="0" src="https://priority2030.ru/analytics/4twacwymeq/about/?embed=true&amp;theme=blue"></iframe>
+      </div>
+    </div>
+    <!--Integration end-->
+
+  </main>
+
+  <footer class="shrink-0 overflow-x-hidden">
+
+    <div class="w-full bg-[url('/img/footer.png')] bg-cover bg-no-repeat py-mobileTitle md:py-title">
+      <div class=" text-white m-auto max-w-screen-xl p-4">
+        <div
+          class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 justify-between items-start md:items-top leading-4">
+          <a href="https://www.vmeda.org/" target="_blank">
+            <div class="flex space-x-3 items-center">
+              <img src="/img/Logo.png" class="h-[44px] w-[36px]" alt="Logo_vmeda">
+              <p class="text-xs md:text-base hover:text-hoverColor">Военно-медицинская <br> академия</p>
+            </div>
+          </a>
+          <div class="phone text-xs md:text-base pt-3 md:pt-0 hover:text-activeRed">
+            <p class="xl:relative xl:flex text-white text-xs md:text-base font-base">
+              Контактные телефоны</p>
+          
+              <div class="flex flex-col">
+                <a href="tel:+78122923456" class="text-activeRed hover:text-white font-semibold">+7 (812)
+                  292-34-56 (доб. 127) </a>
+
+                  <a href="tel:+78122923456" class="text-activeRed hover:text-white font-semibold">+7 (812)
+                    292-34-56 (доб. 146) </a>
+
+              </div>
+
+          </div>
+          <a href="mailto:vmeda_10@mil.ru" target="_blank" class="header__link  pochta flex space-x-2 items-center">
+            <div>
+              <p class="xl:relative xl:flex text-white text-xs md:text-base font-base ">
+                Проектный офис</p>
+              <div class="flex">
+                <img src="/img/icon/Mail.svg" class="lg:block h-2 mt-1 md:h-3 md:mt-2 pr-1.5 w-auto" alt="mail">
+                <p class="xl:relative xl:flex text-activeRed hover:text-white text-xs md:text-base font-semibold">
+                  vmeda_10@mil.ru</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div
+          class="down flex flex-col space-y-2 md:space-y-0 md:flex-row pt-10 font-body text-xs justify-start text-gray-400">
+          <p class="whitespace-nowrap">© 2024 |&nbsp;</p>
+          <p class="w-full">Федеральное государственное военное образовательное учреждение высшего
+            образования
+            <br>
+            «Военно-медицинская академия имени С.М. Кирова» Министерства обороны Российской Федерации
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <section class="overflow-x-hidden">
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__content px-[120px] py-[120px] container my-6 lg:my-0 rounded-3xl">
+          <a href="#header"
+            class="cursor-pointer popup__close close-popup h-8 w-8 text-activeRed fixed right-3 lg:right-10 top-50 lg:top-10 z-50">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="15" y1="9" x2="9" y2="15" />
+              <line x1="9" y1="9" x2="15" y2="15" />
+            </svg>
+          </a>
+          <script>
+
+function load_data() {
+
+          $.ajax({
+
+              type: "GET",
+
+              url: "https://lms.vmeda.org/contacts_api/vmeda_2030",
+
+              processData: false,
+
+              contentType: false,
+
+              cache: false,
+
+              timeout: 800000,
+
+              dataType: 'json',
+
+              success: function(data) {
+                document.getElementById("edit_academic_year").value = data.academic_years;
+                document.getElementById("level_con").value = data.level_con;
+              },
+              error: function(data) {
+                alert("Ошибка: Возможно Вы не заполнили обязательные поля!");
+              }
+
+          });
+};
+
+load_data();
+
+  function sendFormEdit() {
+  
+    var form = $('#myformEdit')[0];
+   
+    // Create an FormData object 
+    var data = new FormData(form);
+   
+    // If you want to add an extra field for the FormData
+    //  data.append("CustomField", "This is some extra data, testing");
+   
+         // disabled the submit button
+    //  $("#btnSubmit").prop("disabled", true);
+   
+           $.ajax({
+
+              type: "POST",
+
+              enctype: 'multipart/form-data',
+
+              url: "https://lms.vmeda.org/contacts_api/post_add_p",
+              data: data,
+
+              processData: false,
+
+              contentType: false,
+
+              cache: false,
+
+              timeout: 800000,
+
+              success: function(data) {
+
+                // Ajax call completed successfully
+                alert("Успешно отправлено!");
+                              
+              },                                
+                                                
+              error: function(data) {           
+                                                
+                // Some error in ajax call      
+                alert("Ошибка: Возможно Вы не заполнили обязательные поля!");
+
+              }
+
+          });
+
+        //form.reset();
+ setTimeout(() => {
+  document.location.reload();
+}, 3000); 
+  };
+
+          </script>
+          <div class="pb-mobileMed">
+            <div
+              class="popup__title text-mainBlueColor uppercase text-2xl md:text-3xl lg:text-5xl font-black leading-tight py-mobileTitle md:pb-title text-center">
+              Инициировать
+              проект</div>
+            <div class="popup__text">
+              <div class="container m-auto">
+                <form   enctype="multipart/form-data" id="myformEdit" class="bg-white">
+
+                  <div class="flex flex-col lg:flex-row justify-start items-center lg:space-x-6 pb-8">
+                    <h3 class="text-base font-semibold text-center text-nowrap pb-4 lg:pb-0">Инициатор проекта</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-3  gap-6 w-full">
+                      <div class="flex flex-col w-full lg:mb-6">
+                        <label class="block text-black text-xs lg:text-sm font-normal mb-2  text-center"
+                          for="last_name">
+                          Фамилия
+                        </label>
+                        <input
+                          class="appearance-none font-body border-2 rounded-full  border-mainColor py-3 lg:py-4 px-4 lg:px-6 text-gray-700 leading-tight"
+                          id="last_name" name="Firstname" type="text" placeholder="Иванов">
+                      </div>
+                      <div class="flex flex-col w-full lg:mb-6">
+                        <label class="block text-black text-xs lg:text-sm font-normal mb-2  text-center" for="name">
+                          Имя
+                        </label>
+                        <input
+                          class="appearance-none font-body border-2 rounded-full l border-mainColor py-3 lg:py-4 px-4 lg:px-6 text-gray-700 leading-tight"
+                          id="name" name="Lastname" type="text" placeholder="Иван">
+                      </div>
+                      <div class="flex flex-col w-full pb-2 lg:pb-6">
+                        <label class="block text-black text-xs lg:text-sm font-normal mb-2 text-center" for="surname">
+                          Отчество
+                        </label>
+                        <input
+                          class="appearance-none font-body border-2 rounded-full  border-mainColor py-3 lg:py-4 px-4 lg:px-6 text-gray-700 leading-tight"
+                          id="surname"  name="Middlename" type="text" placeholder="Иванович">
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col lg:flex-row  justify-start items-center lg:space-x-6 pb-[30px] xl:pb-mobileMed">
+                    <h3 class="text-base font-semibold text-center text-nowrap pb-4 lg:pb-0">Контактные данные</h3>
+                    <div class="grid grid-cols-gap-1 lg:grid-cols-3  gap-2 lg:gap-6 w-full">
+                      <div class="flex flex-col w-full mb-4 lg:mb-6">
+                        <label class="block text-black text-xs lg:text-sm font-normal mb-2 px-6 text-center">Мобильный
+                          телефон
+                        </label>
+                        <input
+                          class="appearance-none font-body border-2 rounded-full w-full border-mainColor py-3 lg:py-4 px-4 lg:px-6 text-gray-700 leading-tight"
+                          type="tel" name="Title" placeholder="+7">
+                      </div>
+                      <div class="flex flex-col w-full mb-4 lg:mb-6">
+                        <label class="block text-black text-xs lg:text-sm font-normal mb-2 px-6 text-center">Электронная
+                          почта
+                        </label>
+                        <input
+                          class="appearance-none font-body border-2 rounded-full w-full border-mainColor py-3 lg:py-4 px-4 lg:px-6 text-gray-700 leading-tight"
+                          type="email" name="Email" placeholder="mail@mil.ru">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex flex-col lg:flex-row items-center lg:justify-center">
+                    <a target="_blank" href="/img/zayavka/Obrazets zayavki na proekt na portal.docx"
+                      class="py-3 lg:py-4 px-6 rounded-full text-sm
+                    md:text-base bg-lightBlue text-mainColor outline-none border-2 border-lightBlue hover:border-mainColor transition-all duration-300 flex">
+                      <span class="mr-2 lg:mr-4 text-xs leading-6 lg:text-sm font-semibold text-mainColor ">Скачать
+                        образец
+                        заявки</span>
+                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="flex flex-col lg:flex-row justify-center items-center pt-6 mb-4 lg:mb-6">
+                    <label for="scan_application"
+                      class="text-center text-base font-semibold pb-8 lg:pb-0 lg:pr-4 text-black">Загрузить скан
+                      заявки</label> <input type="file" accept="application/pdf" name="file_upload" class="inline-block w-full md:w-1/2 text:xs lg:text-sm text-gray-400 mr-2 lg:file:mx-6 file:py-4 file:px-6 file:rounded-full file:border-solid file:border-2 file:border-mainColor file:text-xs lg:file:text-sm file:bg-white file:text-gray-500 file:text-center hover:file:bg-lightBlue"/>
+
+                  </div>
+                  <div class="checkbox pb-mobileTitle xl:pb-middle text-center">
+                    <input id="formAgreement" checked type="checkbox" name="agreement" class="">
+                    <label for="formAgreement" class="text-xs"><span>Я даю своё согласие на обработку
+                        персональных данных</span></label>
+                  </div>
+                          <input type="hidden" name="Academic_year" id="edit_academic_year">
+                          <input type="hidden" name="Leval_contacts_id" id="level_con">
+                  <div class="my-6 lg:mt-6 flex items-center justify-center">
+                    <button  onclick="sendFormEdit()" class="inline-block fixed bg-activeRed hover:bg-activeRed/75 active:bg-hoverColor transition-all duration-300 text-white py-4 px-8 rounded-full text-sm
+                md:text-base border-white border-2" type="button">
+                      Отправить заявку
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Подключаем файл скриптов -->
+
+  <script src="/js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
